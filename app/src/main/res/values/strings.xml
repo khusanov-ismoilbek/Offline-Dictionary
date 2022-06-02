@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Offline Dictionary MVVM</string>
+
+    <string name="dictionary">O\'zbek Ingliz lug\'at</string>
+
+    <string name="words">Words</string>
+    <string name="favourites">Favourites</string>
+    <string name="splash_screen">Splash Screen</string>
+    <string name="rate_the_application">\t\tRate the application</string>
+    <string name="favorites">\t\tFavorites</string>
+    <string name="t_t_category">\t\tCategory</string>
+    <string name="about">\t\tAbout</string>
+    <string name="favourite_words">Favourite words</string>
+    <string name="abouts">\t\tOver 5000 words and Uzbek can be translated using this application, along brief description of each word. You can search for words in both Uzbek and English</string>
+    <string name="contacts">contact: khusanov.ismoilbek@gmail.com</string>
+    <string name="ok">Ok</string>
+</resources>

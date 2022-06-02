@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="280dp"
+    android:layout_gravity="center"
+    app:cardCornerRadius="24dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_about"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:justificationMode="inter_word"
+            android:padding="8dp"
+            android:text="@string/abouts"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            tools:ignore="UnusedAttribute" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/contacts"
+            android:textColor="@color/white" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/okBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/shape_ok"
+            android:text="@string/ok" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.cardview.widget.CardView>
+
+    <!--<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="250dp"-->
+    <!--android:layout_height="250dp"-->
+    <!--android:orientation="vertical">-->
+
+
+    <!--<androidx.appcompat.widget.AppCompatTextView-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:layout_margin="8dp"-->
+    <!--    android:justificationMode="inter_word"-->
+    <!--    android:padding="8dp"-->
+    <!--    android:text="@string/abouts"-->
+    <!--    tools:ignore="UnusedAttribute" />-->
+
+    <!--<androidx.appcompat.widget.AppCompatButton-->
+    <!--    android:id="@+id/okBtn"-->
+    <!--    android:layout_width="wrap_content"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:layout_gravity="center"-->
+    <!--    android:background="?android:selectableItemBackground"-->
+    <!--    android:text="Ok" />-->
+
+    <!--</androidx.appcompat.widget.LinearLayoutCompat>-->
